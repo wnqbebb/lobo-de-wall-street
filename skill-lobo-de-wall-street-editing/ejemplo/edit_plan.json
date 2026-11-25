@@ -1,0 +1,208 @@
+{
+ "style": "lobo-de-wall-street",
+ "scenes": [
+  {
+   "id": "c0",
+   "type": "l_comment",
+   "start": 0.0,
+   "end": 3.98,
+   "props": {
+    "text": "¿Por qué no se venden mis prendas si están bonitas?",
+    "user": "marce_boutique"
+   }
+  },
+  {
+   "id": "i1",
+   "type": "l_icon",
+   "start": 1.46,
+   "end": 3.4,
+   "props": {
+    "text": "3",
+    "t": 1.46,
+    "enter": "pop",
+    "y": 0.1,
+    "color": "#F2D10F",
+    "px": 240
+   }
+  },
+  {
+   "id": "in1",
+   "type": "l_insert",
+   "start": 3.98,
+   "end": 6.42,
+   "props": {
+    "items": [
+     {
+      "t": 3.98,
+      "label": "A02\nprenda en gancho\ncon luz del local"
+     }
+    ]
+   }
+  },
+  {
+   "id": "z1",
+   "type": "p_punch",
+   "start": 6.42,
+   "end": 7.38,
+   "props": {
+    "in_s": 0.03,
+    "out_s": 0.03,
+    "amount": 0.1
+   }
+  },
+  {
+   "id": "l1",
+   "type": "l_list",
+   "start": 10.94,
+   "end": 12.3,
+   "props": {
+    "n": "1",
+    "title": "De frente"
+   }
+  },
+  {
+   "id": "in2",
+   "type": "l_insert",
+   "start": 12.3,
+   "end": 16.12,
+   "props": {
+    "items": [
+     {
+      "t": 12.3,
+      "label": "A03\nprenda completa\nluz de día"
+     }
+    ]
+   }
+  },
+  {
+   "id": "l2",
+   "type": "l_list",
+   "start": 17.4,
+   "end": 18.6,
+   "props": {
+    "n": "2",
+    "title": "Puesta"
+   }
+  },
+  {
+   "id": "in3",
+   "type": "l_insert",
+   "start": 18.6,
+   "end": 21.0,
+   "props": {
+    "items": [
+     {
+      "t": 18.6,
+      "label": "A04\nprenda puesta\nen una persona"
+     }
+    ]
+   }
+  },
+  {
+   "id": "z2",
+   "type": "p_punch",
+   "start": 21.78,
+   "end": 23.02,
+   "props": {
+    "in_s": 0.03,
+    "out_s": 0.03,
+    "amount": 0.1
+   }
+  },
+  {
+   "id": "l3",
+   "type": "l_list",
+   "start": 24.28,
+   "end": 25.56,
+   "props": {
+    "n": "3",
+    "title": "De cerquita"
+   }
+  },
+  {
+   "id": "in4",
+   "type": "l_insert",
+   "start": 25.56,
+   "end": 27.44,
+   "props": {
+    "items": [
+     {
+      "t": 25.64,
+      "label": "A06 costura"
+     },
+     {
+      "t": 26.26,
+      "label": "A07 botón"
+     },
+     {
+      "t": 26.82,
+      "label": "A08 tela"
+     }
+    ]
+   }
+  },
+  {
+   "id": "m1",
+   "type": "l_movie",
+   "start": 30.22,
+   "end": 33.12,
+   "props": {
+    "face": {
+     "x": 0.496,
+     "y": 0.349
+    },
+    "placeholder": "clip de archivo:\ncliente dudando\nfrente al celular"
+   }
+  },
+  {
+   "id": "i2",
+   "type": "l_icon",
+   "start": 34.58,
+   "end": 35.34,
+   "props": {
+    "text": "10×",
+    "t": 34.58,
+    "enter": "drop",
+    "y": 0.09,
+    "color": "#fff",
+    "px": 220
+   }
+  },
+  {
+   "id": "z3",
+   "type": "p_punch",
+   "start": 35.34,
+   "end": 37.72,
+   "props": {
+    "in_s": 0.03,
+    "out_s": 0.03,
+    "amount": 0.1
+   }
+  },
+  {
+   "id": "f1",
+   "type": "l_follow",
+   "start": 41.0,
+   "end": 44.3,
+   "props": {
+    "handle": "tu_marca",
+    "click_s": 0.8
+   }
+  }
+ ],
+ "cuts": [],
+ "captions": {
+  "enabled": true,
+  "special_words": [
+   "fotos",
+   "sola",
+   "cómo",
+   "queda",
+   "diez",
+   "veces",
+   "pedir",
+   "gratis"
+  ]
+ },
+ "assets": []
+}

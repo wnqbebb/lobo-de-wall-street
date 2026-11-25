@@ -1,0 +1,561 @@
+{
+ "title": "Prueba · 3 fotos por prenda (estilo Lobo de Wall Street)",
+ "beats": [
+  {
+   "id": "b01",
+   "start": 0.0,
+   "end": 3.98,
+   "script": "Toda prenda que vende necesita tres fotos y casi todos suben una sola.",
+   "seen": "Lo que dice se ve: comentario, cifra, foto, lista o clip, siempre en la palabra.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Propuesta: Comentario + Objeto/cifra",
+     "cats": "l_comment · l_icon",
+     "desc": "Sincronizado a la palabra según la lógica medida del estilo.",
+     "ref": "V01-A01",
+     "scenes": [
+      {
+       "id": "c0",
+       "type": "l_comment",
+       "start": 0.0,
+       "end": 3.98,
+       "props": {
+        "text": "¿Por qué no se venden mis prendas si están bonitas?",
+        "user": "marce_boutique"
+       }
+      },
+      {
+       "id": "i1",
+       "type": "l_icon",
+       "start": 1.46,
+       "end": 3.4,
+       "props": {
+        "text": "3",
+        "t": 1.46,
+        "enter": "pop",
+        "y": 0.1,
+        "color": "#F2D10F",
+        "px": 240
+       }
+      }
+     ]
+    },
+    {
+     "title": "Clip de película",
+     "cats": "l_movie",
+     "desc": "Una escena de la película (o archivo) a pantalla completa con él abajo a la izquierda.",
+     "ref": "V01-A11",
+     "scenes": [
+      {
+       "type": "l_movie",
+       "start": 0.0,
+       "end": 3.98,
+       "props": {
+        "placeholder": "clip de película"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Solo a cámara",
+     "cats": "subtítulo",
+     "desc": "Él a cámara con el subtítulo blanco; respiro sin elementos.",
+     "ref": "V08-A01",
+     "scenes": []
+    }
+   ]
+  },
+  {
+   "id": "b02",
+   "start": 3.98,
+   "end": 7.38,
+   "script": "La prenda colgada en un gancho con la luz del local. Te digo cuáles son.",
+   "seen": "Lo que dice se ve: comentario, cifra, foto, lista o clip, siempre en la palabra.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Propuesta: Foto insertada + Salto de encuadre",
+     "cats": "l_insert · p_punch",
+     "desc": "Sincronizado a la palabra según la lógica medida del estilo.",
+     "ref": "V01-A04",
+     "scenes": [
+      {
+       "id": "in1",
+       "type": "l_insert",
+       "start": 3.98,
+       "end": 6.42,
+       "props": {
+        "items": [
+         {
+          "t": 3.98,
+          "label": "A02\nprenda en gancho\ncon luz del local"
+         }
+        ]
+       }
+      },
+      {
+       "id": "z1",
+       "type": "p_punch",
+       "start": 6.42,
+       "end": 7.38,
+       "props": {
+        "in_s": 0.03,
+        "out_s": 0.03,
+        "amount": 0.1
+       }
+      }
+     ]
+    },
+    {
+     "title": "Clip de película",
+     "cats": "l_movie",
+     "desc": "Una escena de la película (o archivo) a pantalla completa con él abajo a la izquierda.",
+     "ref": "V05-A05",
+     "scenes": [
+      {
+       "type": "l_movie",
+       "start": 3.98,
+       "end": 7.38,
+       "props": {
+        "placeholder": "clip de película"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Solo a cámara",
+     "cats": "subtítulo",
+     "desc": "Él a cámara con el subtítulo blanco; respiro sin elementos.",
+     "ref": "V08-A02",
+     "scenes": []
+    }
+   ]
+  },
+  {
+   "id": "b03",
+   "start": 7.38,
+   "end": 10.94,
+   "script": "La tercera es la que casi nadie toma y es la que más preguntas te ahorra.",
+   "seen": "Lo que dice se ve: comentario, cifra, foto, lista o clip, siempre en la palabra.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Propuesta: aroll",
+     "cats": "aroll",
+     "desc": "Sincronizado a la palabra según la lógica medida del estilo.",
+     "ref": "V01-A02",
+     "scenes": []
+    },
+    {
+     "title": "Clip de película",
+     "cats": "l_movie",
+     "desc": "Una escena de la película (o archivo) a pantalla completa con él abajo a la izquierda.",
+     "ref": "V06-A11",
+     "scenes": [
+      {
+       "type": "l_movie",
+       "start": 7.38,
+       "end": 10.94,
+       "props": {
+        "placeholder": "clip de película"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Solo a cámara",
+     "cats": "subtítulo",
+     "desc": "Él a cámara con el subtítulo blanco; respiro sin elementos.",
+     "ref": "V01-A02",
+     "scenes": []
+    }
+   ]
+  },
+  {
+   "id": "b04",
+   "start": 10.94,
+   "end": 17.4,
+   "script": "La primera, la prenda completa de frente con luz de día… Esa responde cómo es.",
+   "seen": "Lo que dice se ve: comentario, cifra, foto, lista o clip, siempre en la palabra.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Propuesta: Número de lista + Foto insertada",
+     "cats": "l_list · l_insert",
+     "desc": "Sincronizado a la palabra según la lógica medida del estilo.",
+     "ref": "V14-A07",
+     "scenes": [
+      {
+       "id": "l1",
+       "type": "l_list",
+       "start": 10.94,
+       "end": 12.3,
+       "props": {
+        "n": "1",
+        "title": "De frente"
+       }
+      },
+      {
+       "id": "in2",
+       "type": "l_insert",
+       "start": 12.3,
+       "end": 16.12,
+       "props": {
+        "items": [
+         {
+          "t": 12.3,
+          "label": "A03\nprenda completa\nluz de día"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "title": "Clip de película",
+     "cats": "l_movie",
+     "desc": "Una escena de la película (o archivo) a pantalla completa con él abajo a la izquierda.",
+     "ref": "V08-A07",
+     "scenes": [
+      {
+       "type": "l_movie",
+       "start": 10.94,
+       "end": 17.4,
+       "props": {
+        "placeholder": "clip de película"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Solo a cámara",
+     "cats": "subtítulo",
+     "desc": "Él a cámara con el subtítulo blanco; respiro sin elementos.",
+     "ref": "V01-A05",
+     "scenes": []
+    }
+   ]
+  },
+  {
+   "id": "b05",
+   "start": 17.4,
+   "end": 24.28,
+   "script": "La segunda, la prenda puesta en una persona… esa responde cómo me queda.",
+   "seen": "Lo que dice se ve: comentario, cifra, foto, lista o clip, siempre en la palabra.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Propuesta: Número de lista + Foto insertada + Salto de encuadre",
+     "cats": "l_list · l_insert · p_punch",
+     "desc": "Sincronizado a la palabra según la lógica medida del estilo.",
+     "ref": "V14-A10",
+     "scenes": [
+      {
+       "id": "l2",
+       "type": "l_list",
+       "start": 17.4,
+       "end": 18.6,
+       "props": {
+        "n": "2",
+        "title": "Puesta"
+       }
+      },
+      {
+       "id": "in3",
+       "type": "l_insert",
+       "start": 18.6,
+       "end": 21.0,
+       "props": {
+        "items": [
+         {
+          "t": 18.6,
+          "label": "A04\nprenda puesta\nen una persona"
+         }
+        ]
+       }
+      },
+      {
+       "id": "z2",
+       "type": "p_punch",
+       "start": 21.78,
+       "end": 23.02,
+       "props": {
+        "in_s": 0.03,
+        "out_s": 0.03,
+        "amount": 0.1
+       }
+      }
+     ]
+    },
+    {
+     "title": "Clip de película",
+     "cats": "l_movie",
+     "desc": "Una escena de la película (o archivo) a pantalla completa con él abajo a la izquierda.",
+     "ref": "V08-A21",
+     "scenes": [
+      {
+       "type": "l_movie",
+       "start": 17.4,
+       "end": 24.28,
+       "props": {
+        "placeholder": "clip de película"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Solo a cámara",
+     "cats": "subtítulo",
+     "desc": "Él a cámara con el subtítulo blanco; respiro sin elementos.",
+     "ref": "V01-A12",
+     "scenes": []
+    }
+   ]
+  },
+  {
+   "id": "b06",
+   "start": 24.28,
+   "end": 30.22,
+   "script": "Y la tercera de cerquita, la costura, el botón, la tela…",
+   "seen": "Lo que dice se ve: comentario, cifra, foto, lista o clip, siempre en la palabra.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Propuesta: Número de lista + Foto insertada",
+     "cats": "l_list · l_insert",
+     "desc": "Sincronizado a la palabra según la lógica medida del estilo.",
+     "ref": "V14-A12",
+     "scenes": [
+      {
+       "id": "l3",
+       "type": "l_list",
+       "start": 24.28,
+       "end": 25.56,
+       "props": {
+        "n": "3",
+        "title": "De cerquita"
+       }
+      },
+      {
+       "id": "in4",
+       "type": "l_insert",
+       "start": 25.56,
+       "end": 27.44,
+       "props": {
+        "items": [
+         {
+          "t": 25.64,
+          "label": "A06 costura"
+         },
+         {
+          "t": 26.26,
+          "label": "A07 botón"
+         },
+         {
+          "t": 26.82,
+          "label": "A08 tela"
+         }
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "title": "Clip de película",
+     "cats": "l_movie",
+     "desc": "Una escena de la película (o archivo) a pantalla completa con él abajo a la izquierda.",
+     "ref": "V10-A03",
+     "scenes": [
+      {
+       "type": "l_movie",
+       "start": 24.28,
+       "end": 30.22,
+       "props": {
+        "placeholder": "clip de película"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Solo a cámara",
+     "cats": "subtítulo",
+     "desc": "Él a cámara con el subtítulo blanco; respiro sin elementos.",
+     "ref": "V05-A02",
+     "scenes": []
+    }
+   ]
+  },
+  {
+   "id": "b07",
+   "start": 30.22,
+   "end": 33.12,
+   "script": "Esto si es buena calidad o se me daña en la primera lavada.",
+   "seen": "Lo que dice se ve: comentario, cifra, foto, lista o clip, siempre en la palabra.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Propuesta: Clip de película",
+     "cats": "l_movie",
+     "desc": "Sincronizado a la palabra según la lógica medida del estilo.",
+     "ref": "V10-A17",
+     "scenes": [
+      {
+       "id": "m1",
+       "type": "l_movie",
+       "start": 30.22,
+       "end": 33.12,
+       "props": {
+        "face": {
+         "x": 0.496,
+         "y": 0.349
+        },
+        "placeholder": "clip de archivo:\ncliente dudando\nfrente al celular"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Clip de película",
+     "cats": "l_movie",
+     "desc": "Una escena de la película (o archivo) a pantalla completa con él abajo a la izquierda.",
+     "ref": "V10-A17",
+     "scenes": [
+      {
+       "type": "l_movie",
+       "start": 30.22,
+       "end": 33.12,
+       "props": {
+        "placeholder": "clip de película"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Solo a cámara",
+     "cats": "subtítulo",
+     "desc": "Él a cámara con el subtítulo blanco; respiro sin elementos.",
+     "ref": "V05-A06",
+     "scenes": []
+    }
+   ]
+  },
+  {
+   "id": "b08",
+   "start": 33.12,
+   "end": 37.72,
+   "script": "Con una foto el cliente te escribe diez veces. Con tres te escribe una sola vez para pedir.",
+   "seen": "Lo que dice se ve: comentario, cifra, foto, lista o clip, siempre en la palabra.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Propuesta: Objeto/cifra + Salto de encuadre",
+     "cats": "l_icon · p_punch",
+     "desc": "Sincronizado a la palabra según la lógica medida del estilo.",
+     "ref": "V12-A04",
+     "scenes": [
+      {
+       "id": "i2",
+       "type": "l_icon",
+       "start": 34.58,
+       "end": 35.34,
+       "props": {
+        "text": "10×",
+        "t": 34.58,
+        "enter": "drop",
+        "y": 0.09,
+        "color": "#fff",
+        "px": 220
+       }
+      },
+      {
+       "id": "z3",
+       "type": "p_punch",
+       "start": 35.34,
+       "end": 37.72,
+       "props": {
+        "in_s": 0.03,
+        "out_s": 0.03,
+        "amount": 0.1
+       }
+      }
+     ]
+    },
+    {
+     "title": "Clip de película",
+     "cats": "l_movie",
+     "desc": "Una escena de la película (o archivo) a pantalla completa con él abajo a la izquierda.",
+     "ref": "V11-A17",
+     "scenes": [
+      {
+       "type": "l_movie",
+       "start": 33.12,
+       "end": 37.72,
+       "props": {
+        "placeholder": "clip de película"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Solo a cámara",
+     "cats": "subtítulo",
+     "desc": "Él a cámara con el subtítulo blanco; respiro sin elementos.",
+     "ref": "V05-A08",
+     "scenes": []
+    }
+   ]
+  },
+  {
+   "id": "b09",
+   "start": 37.72,
+   "end": 44.3,
+   "script": "Comenta la palabra en pantalla y te armo gratis un anuncio…",
+   "seen": "Lo que dice se ve: comentario, cifra, foto, lista o clip, siempre en la palabra.",
+   "pick": "A",
+   "opts": [
+    {
+     "title": "Propuesta: Tarjeta de perfil",
+     "cats": "l_follow",
+     "desc": "Sincronizado a la palabra según la lógica medida del estilo.",
+     "ref": "V16-A14",
+     "scenes": [
+      {
+       "id": "f1",
+       "type": "l_follow",
+       "start": 41.0,
+       "end": 44.3,
+       "props": {
+        "handle": "tu_marca",
+        "click_s": 0.8
+       }
+      }
+     ]
+    },
+    {
+     "title": "Clip de película",
+     "cats": "l_movie",
+     "desc": "Una escena de la película (o archivo) a pantalla completa con él abajo a la izquierda.",
+     "ref": "V16-A03",
+     "scenes": [
+      {
+       "type": "l_movie",
+       "start": 37.72,
+       "end": 44.3,
+       "props": {
+        "placeholder": "clip de película"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Solo a cámara",
+     "cats": "subtítulo",
+     "desc": "Él a cámara con el subtítulo blanco; respiro sin elementos.",
+     "ref": "V05-A09",
+     "scenes": []
+    }
+   ]
+  }
+ ]
+}
